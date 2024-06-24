@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    volumes:
+      - ".:/var/www/app"
+    ports:
+      - "8070:8070"
