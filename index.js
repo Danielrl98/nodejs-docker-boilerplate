@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req,res) => {
-    res.send('hello2 world')
+    res.send('hello world')
 })
 
 const HOSTNAME = '0.0.0.0'
